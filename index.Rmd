@@ -17,9 +17,9 @@ output: html_document
 <div class="row" style="padding-top: 30px;">
 <div class="col-sm-6">
 
-# **UNH R Users Group**
+# **Welcome!**
 
-This is a template example for lab journaling. Students in Matt Crump's Human Cognition and Performance Lab will use this template to learn R, and other things. Students can replace this text with more fun things. People not in my lab can use this too.
+Welcome to the UNH R Users Group! We're a community at the University of New Hampshire dedicated to supporting one another in using R for research, education, and for fun! All experience levels are encouraged. Join us for open collaboration, mutual assistance, and discovering new aspects of R!
 
 ## How to use
 
@@ -35,7 +35,7 @@ This is a template example for lab journaling. Students in Matt Crump's Human Co
 </div>
 <div class="col-sm-6">
 
-### [Crump Lab: Human Cognition and Performance](https://crumplab.github.io)
+### [Spring Semester Schedule](https://crumplab.github.io)
 
 <a href = "https://crumplab.github.io">
 ![](images/logo.png)
