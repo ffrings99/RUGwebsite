@@ -1,6 +1,6 @@
-name: "MyLabJournal"
+name: "UNH R Users Group"
 navbar:
-  title: "MyLabJournal"
+  title: "UNH R Users Group"
   left:
     - text: "Home"
       href: index.html
