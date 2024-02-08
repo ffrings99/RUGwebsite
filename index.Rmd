@@ -19,17 +19,35 @@ output: html_document
 
 # **Welcome!**
 
-Welcome to the UNH R Users Group! We're a community of R users at the University of New Hampshire dedicated to supporting one another in using R for research, education, and for fun! All experience levels are encouraged. Join us for open collaboration, mutual assistance, and discovering new aspects of R!
+Welcome to the UNH R Users Group! We're a community of R users at the University of New Hampshire dedicated to supporting one another in using coding software for research, education, and for fun! All experience levels are encouraged. Join us for open collaboration, mutual assistance and learning more about R.
 
+```{r, results='asis', echo=FALSE}
+library(knitr)
 
+# Example schedule data frame
+schedule <- data.frame(
+  Time = c("9:00 - 10:00", "10:00 - 11:00", "11:00 - 12:00"),
+  Monday = c("Math", "Science", "History"),
+  Tuesday = c("English", "Math", "Science"),
+  Wednesday = c("Science", "English", "Math"),
+  Thursday = c("Math", "Science", "English"),
+  Friday = c("History", "Math", "Science")
+)
+
+# Print the schedule table
+kable(schedule, format = "markdown")
+
+```
 
 </div>
 <div class="col-sm-6">
 
-### [Spring Semester Schedule](https://crumplab.github.io)
+
+![](images/UNH_RUsers.png){width=200px style="margin-left: 100px;"}
 
 
-![](images/UNH_RUsers.png)
+
+
 
 </a>
 </div>
