@@ -37,7 +37,8 @@ Welcome to the UNH R Users Group! We're a community at the University of New Ham
 
 ### [Spring Semester Schedule](https://crumplab.github.io)
 
-<a href = "https://crumplab.github.io">
-![](images/logo.png)
+
+![](UNH_RUsers.png)
+
 </a>
 </div>
