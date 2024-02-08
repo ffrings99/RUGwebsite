@@ -1,0 +1,24 @@
+---
+title: "schedule"
+author: "Faith"
+date: "2024-02-08"
+output: html_document
+---
+```{r echo=FALSE}
+library(knitr)
+
+# Define schedule data
+schedule <- data.frame(
+  Time = c("9:00 - 10:00 AM", "10:00 - 12:00 PM", "12:00 - 1:00 PM", 
+           "1:00 - 3:00 PM", "3:00 - 5:00 PM", "5:00 - 7:00 PM", "7:00 - 9:00 PM"),
+  Monday = c("Gym", "Work", "Lunch", "Work", "Study", "Dinner", "Free Time"),
+  Tuesday = c("Project Meeting", "Study", "Lunch", "Study", "Workshops", "Free Time", "Free Time"),
+  Wednesday = c("Yoga Class", "Work", "Lunch", "Work", "Study", "Dinner", "Free Time"),
+  Thursday = c("Gym", "Work", "Lunch", "Work", "Study", "Dinner", "Free Time"),
+  Friday = c("Workshops", "Work", "Lunch", "Work", "Study", "Free Time", "Free Time")
+)
+
+# Print the schedule as a Markdown table
+kable(schedule, align = "c")
+```
+

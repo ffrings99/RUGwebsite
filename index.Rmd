@@ -1,6 +1,8 @@
 ---
 title: "UNH R Users Group"
-output: html_document
+output: 
+  html_document
+  
 ---
 
 <style type="text/css">
@@ -21,33 +23,40 @@ output: html_document
 
 Welcome to the UNH R Users Group! We're a community of R users at the University of New Hampshire dedicated to supporting one another in using coding software for research, education, and for fun! All experience levels are encouraged. Join us for open collaboration, mutual assistance and learning more about R.
 
-```{r, results='asis', echo=FALSE}
-library(knitr)
 
-# Example schedule data frame
+
+**<span style="font-weight:bold;">Spring 2024 Schedule </span>**
+
+
+```{r echo=FALSE, results='asis'}
+
 schedule <- data.frame(
-  Time = c("9:00 - 10:00", "10:00 - 11:00", "11:00 - 12:00"),
-  Monday = c("Math", "Science", "History"),
-  Tuesday = c("English", "Math", "Science"),
-  Wednesday = c("Science", "English", "Math"),
-  Thursday = c("Math", "Science", "English"),
-  Friday = c("History", "Math", "Science")
+  Date = c("Jan 31", "Feb 7", "Feb 14", "Feb 21", "Feb 28", "March 6", "March 13", "March 20", "March 27", "April 3", "April 10", "April 17", "April 24", "May 1"),
+  Topic = c("Welcome & Intro to choosing data visualizations", "ggplot color schemes", "leaflet", "making plot themes", "Mult-panel plots","swirl", "teaching R topic", "Spring Break", "Poisson regressions", "Interpreting model outputs", "for loops", "TBD", "TBD", "TBD") 
+  
 )
 
-# Print the schedule table
-kable(schedule, format = "markdown")
+# Print the schedule as an HTML table with borders
+cat("<table style='border-collapse: collapse; border: 1px solid black;'>")
+cat("<tr>")
+cat("<th style='border: 1px solid black;'>Date</th>")
+cat("<th style='border: 1px solid black;'>Topic</th>")
 
+for (i in 1:nrow(schedule)) {
+  cat("<tr>")
+  cat("<td style='border: 1px solid black; padding: 10px;'>", schedule$Date[i], "</td>")
+  cat("<td style='border: 1px solid black; padding: 10px;'>", schedule$Topic[i], "</td>")
+  cat("</tr>")
+}
+cat("</table>")
 ```
-
 </div>
-<div class="col-sm-6">
+</div>
+<div class="col-sm-6"style="margin-top: 20px;">
+
+<img src="images/UNH_RUsers.png" alt="UNH R Users Group Logo" style="max-width: 300px; height: auto;">
 
 
-![](images/UNH_RUsers.png){width=200px style="margin-left: 100px;"}
 
 
-
-
-
-</a>
 </div>
