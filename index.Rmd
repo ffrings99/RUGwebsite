@@ -19,17 +19,8 @@ output: html_document
 
 # **Welcome!**
 
-Welcome to the UNH R Users Group! We're a community at the University of New Hampshire dedicated to supporting one another in using R for research, education, and for fun! All experience levels are encouraged. Join us for open collaboration, mutual assistance, and discovering new aspects of R!
+Welcome to the UNH R Users Group! We're a community of R users at the University of New Hampshire dedicated to supporting one another in using R for research, education, and for fun! All experience levels are encouraged. Join us for open collaboration, mutual assistance, and discovering new aspects of R!
 
-## How to use
-
-1. fork the repo for this website and follow instructions on read me to get set up. [https://github.com/CrumpLab/LabJournalWebsite](https://github.com/CrumpLab/LabJournalWebsite)
-
-2. Blog/journal what you are doing in R, by editing the Journal.Rmd. See the [Journal page](https://crumplab.github.io/LabJournalWebsite/Journal.html) for an example of what to do to get started learning R.
-
-3. See the [links page](https://crumplab.github.io/LabJournalWebsite/Links.html) for lots of helpful links on learning R.
-
-4. Change everything to make it your own.
 
 
 </div>
@@ -38,7 +29,7 @@ Welcome to the UNH R Users Group! We're a community at the University of New Ham
 ### [Spring Semester Schedule](https://crumplab.github.io)
 
 
-![](UNH_RUsers.png)
+![](images/UNH_RUsers.png)
 
 </a>
 </div>
